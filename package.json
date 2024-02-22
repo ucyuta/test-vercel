@@ -1,0 +1,28 @@
+{
+  "name": "@ucyuta/website",
+  "version": "0.1.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "next dev -H 0.0.0.0",
+    "build": "next build",
+    "lint": "next lint",
+    "fmt": "prettier --write ."
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@chakra-ui/icons": "^2.1.1",
+    "@chakra-ui/next-js": "^2.2.0",
+    "@chakra-ui/react": "^2.8.2",
+    "framer-motion": "^11.0.5",
+    "next": "^14.1.0",
+    "react": "^18.2.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.56.0",
+    "eslint-config-next": "^14.1.0",
+    "prettier": "^3.2.5"
+  }
+}
